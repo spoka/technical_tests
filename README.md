@@ -7,14 +7,14 @@ Please build out the mockup [found here](https://github.com/westfield/technical_
 The result should:
 
 - Be responsive, you can decide how the design should best scale for smaller screens.
-- Use dynamic data from our API's (see *API/JavaScript* section below), the deals search however to be static (non-functional) as we're only interested in the HTML/CSS for this.
+- Use dynamic data from our API's. The deals search however to be static (non-functional) as we're only interested in the HTML/CSS for this.
 - Work in the following desktop browsers and devices:
 	- IE9+.
 	- Latest version of all other major browsers.
 	- Latest iOS OS devices.
 	- Latest Android OS devices.
 - Use Sass CSS pre-processor if possible.
-- Use the HTML5 `doctype`.
+- Use HTML5.
 - Take into account:
 	- Maintainability.
 	- Accessibility.
@@ -24,8 +24,7 @@ The result should:
 
 - Use CoffeeScript if you like.
 - Use any framework/libs.
-- API docs [found here](http://www.westfield.com.au/api).
-- End points of interest:
+- API docs [found here](http://www.westfield.com.au/api). End points of interest:
   - <http://www.westfield.com.au/api/centre/master/states.json?country=au>
   - <http://www.westfield.com.au/api/centre/master/centres.json?state=NSW>
   - <http://www.westfield.com.au/api/deal/master/deals.json?centre=bondijunction&state=published>
