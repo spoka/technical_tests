@@ -2,7 +2,9 @@
 
 ## Instructions
 
-Please build out the mockup [found here](https://github.com/westfield/technical_tests/blob/master/design_assets/mockup.png). Treat this UI as being part of a large scale web site.
+Please build out the mockup [found here](https://github.com/westfield/technical_tests/blob/master/design_assets/mockup.png). 
+
+Treat this UI as being part of a large scale web site.
 
 The result should:
 
@@ -23,12 +25,14 @@ The result should:
 ### API/JavaScript
 
 - Use CoffeeScript if you like.
-- Use any framework/libs.
+- Use any frameworks/libs.
 - API docs [found here](http://www.westfield.com.au/api). End points of interest:
-  - <http://www.westfield.com.au/api/centre/master/states.json?country=au>
-  - <http://www.westfield.com.au/api/centre/master/centres.json?state=NSW>
-  - <http://www.westfield.com.au/api/deal/master/deals.json?centre=bondijunction&state=published>
+  - <http://www.westfield.com.au/api/centre/master/states.json?country=au>.
+  - <http://www.westfield.com.au/api/centre/master/centres.json?state=NSW>.
+  - <http://www.westfield.com.au/api/deal/master/deals.json?centre=bondijunction&state=published>.
 
 ----
 
-Fork this repo and create a pull-request when you are done. Good luck. We look forward to receiving your pull-request!
+Fork this repo and create a pull-request when you're done. 
+
+Good luck and we look forward to receiving your pull-request!
