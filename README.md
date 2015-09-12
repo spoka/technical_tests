@@ -1,4 +1,7 @@
 # Westfield Deals mockup
+#### Demo
+[http://spoka.github.io/westfield/](http://spoka.github.io/westfield/)
+
 #### Task
 Implement [Westfield Deals mockup](https://github.com/westfield/technical_tests/blob/master/design_assets/mockup.png) using these [instructions](https://github.com/westfield/technical_tests).
 
