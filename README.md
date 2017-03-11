@@ -1,6 +1,6 @@
 # Westfield Deals mockup
 #### Demo
-[http://spoka.github.io/westfield/](http://spoka.github.io/westfield/)
+[http://yarunluon.github.io/westfield/](http://yarunluon.github.io/westfield/)
 
 #### Task
 Implement [Westfield Deals mockup](https://github.com/westfield/technical_tests/blob/master/design_assets/mockup.png) using these [instructions](https://github.com/westfield/technical_tests).
@@ -19,10 +19,10 @@ I spent two days building a fully functional web-app. As I feel with most projec
 * Search does nothing
 
 #### Architecture
-MVC design with a single omnipotent controller. Models and views are only self-aware with no knowledge of other components. Models and views contain no logic and are only able to emit events, listen to events, and request data. They are not able to execute commands. The controller instructs models to fetch new data and when to tell the views to rerender. 
+MVC design with a single omnipotent controller. Models and views are only self-aware with no knowledge of other components. Models and views contain no logic and are only able to emit events, listen to events, and request data. They are not able to execute commands. The controller instructs models to fetch new data and when to tell the views to rerender.
 
 #### Mockup mode
-Even though I get the data live from the APIs, I massage the data to have it appear similar to the mockup. 
+Even though I get the data live from the APIs, I massage the data to have it appear similar to the mockup.
 
 Differences between 'mockup mode' and live data
 
@@ -37,13 +37,13 @@ Mockup mode can be disabled by passing `{ mockup: false }` into the `Westfield`,
 var westfield = new Westfield({ mockup: false });
 
 // Show all states in order retrieved from API
-var states = new States({ mockup: false }); 
+var states = new States({ mockup: false });
 
 // Show all centres instead of the first 6
-var centres = new Centres({ mockup: false }); 
+var centres = new Centres({ mockup: false });
 
 // Show all deals instead of randomly showing 4
-var deals = new Deals({ mockup: false }); 
+var deals = new Deals({ mockup: false });
 ```
 
 #### Responsiveness
@@ -72,7 +72,7 @@ Sass was used to add custom styles and to override the Bootstrap styles. A gulp 
 The semantic elements `<section>`, `<nav>`, `<header>` are always welcome in my code.
 
 #### CoffeeScript
-CoffeeScript, the popular JavaScript pre-processor, was not used. It's on my bucket list to learn. 
+CoffeeScript, the popular JavaScript pre-processor, was not used. It's on my bucket list to learn.
 
 #### Maintainability
 * Structured using MVC design
@@ -90,7 +90,7 @@ CoffeeScript, the popular JavaScript pre-processor, was not used. It's on my buc
 [View animated gif of accessibility features](https://github.com/spoka/technical_tests/blob/master/screenshots/westfield-deals-a11y.gif)
 
 #### Performance
-Initial json for _States_, _Centres_, and _Deals_ are bootstrapped into the HTML. Pretend they were written there by the server. Any future updates query the API. Bootstrapping the json helps speed up the load time by removing three API calls. To disable bootstrapping, pass `{ bootstrap: false }` into the application. 
+Initial json for _States_, _Centres_, and _Deals_ are bootstrapped into the HTML. Pretend they were written there by the server. Any future updates query the API. Bootstrapping the json helps speed up the load time by removing three API calls. To disable bootstrapping, pass `{ bootstrap: false }` into the application.
 
 ```javascript
 var westfield = new Westfield({ bootstrap: false });
