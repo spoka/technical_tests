@@ -59,7 +59,7 @@ Tested on these devices in Chrome Dev Tools
 
 #### Browser and device compatibility
 Tested to be functional in the following browsers and devices
-- [x] Internet Explore 9+
+- [x] Internet Explorer 9+
 - [x] Latest Chrome
 - [x] Latest Firefox
 - [x] iPhone (emulated via Chrome Dev Tools using iPhone user-agent)
