@@ -96,12 +96,12 @@ a {
 	padding-top: 5px;
 }
 
-.panel {
+#centres-region .panel {
 	border: none;
 	margin-bottom: 1px;
 }
 
-.panel-default {
+#centres-region .panel-default {
 	& > .panel-heading {
 		background-color: $color-gray__dark;
 		padding: 0;
@@ -128,7 +128,7 @@ a {
 			outline: medium solid darken($color--secondary, 10%);
 			background-color: lighten($color--secondary, 10%);
 		}
-	}						
+	}
 
 	.active & {
 		background-color: $color--primary;
